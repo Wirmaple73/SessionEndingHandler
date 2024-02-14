@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <Title>Session Ending Handler</Title>
+    <Version>1.0.0</Version>
+    <Authors>Alireza Shahidi Fard</Authors>
+    <Company>Alireza Shahidi Fard</Company>
+    <Product>Session Ending Handler</Product>
+    <Description>Session Ending Handler</Description>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <FileVersion>1.0.0</FileVersion>
+    <AssemblyName>SessionEndingHandler</AssemblyName>
+    <RootNamespace>SessionEndingHandler</RootNamespace>
+    <PackageId>SessionEndingHandler</PackageId>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <IsPublishable>True</IsPublishable>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <Copyright>Copyright (c) 2024 Alireza Shahidi Fard</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
