@@ -1,6 +1,6 @@
 # In the name of God
 ## Session Ending Handler
-Are you tired and frustrated of shutting Windows down by accident and losing all of your important work, and possibly waiting an eternity for your PC to boot back up? Not anymore, Session Ending Handler is here to save the day!
+Are you tired and frustrated of shutting Windows down by accident and possibly waiting an eternity for your PC to boot back up? Not anymore, Session Ending Handler is here to save the day!
 
 This program works by intercepting and interrupting the system shutdown process which prevents the system from shutting down. It's also configured to start with Windows by default, not a single extra click needed. Run once and forget!
 
